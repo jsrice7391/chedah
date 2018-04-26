@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/jamesmart77/chedah.git"
   },
-  "homepage" : "https://chedah.herokuapp.com/",
+  "homepage": "https://chedah.herokuapp.com/",
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
