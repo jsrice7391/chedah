@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/jamesmart77/chedah.git"
   },
-  "homepage" : "https://chedah.herokuapp.com/",
+  "homepage": "https://chedah.herokuapp.com/",
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
@@ -16,7 +16,9 @@
     "build": "node scripts/build.js",
     "seed": "node scripts/seedDB.js",
     "test": "mocha --exit",
-    "installDeps": "yarn && cd client && yarn"
+    "installDeps": "yarn && cd client && yarn",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "James Martineau, Ben Baumann, Michelle Baumann, Michael Fessenden, Justin Rice ",
   "license": "ISC",
@@ -48,16 +50,18 @@
     "jest-cli": "^22.4.2",
     "json-stringify-safe": "^5.0.1",
     "jwks-rsa": "^1.2.1",
-    "morgan": "^1.9.0",
-    "mongoose": "^4.11.7",
+    "morgan": "^1.9.1",
+    "mongoose": "^4.13.17",
     "plaid": "^2.3.0",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-materialize": "^1.1.2",
     "react-moment": "^0.7.0",
     "react-router": "^4.2.0",
-    "react-scripts": "^1.1.1",
-    "redis": "^2.8.0"
-  }
+    "react-scripts": "^1.1.5",
+    "redis": "^2.8.0",
+    "snyk": "^1.117.1"
+  },
+  "snyk": true
 }
