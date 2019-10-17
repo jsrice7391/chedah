@@ -49,7 +49,7 @@
     "json-stringify-safe": "^5.0.1",
     "jwks-rsa": "^1.2.1",
     "morgan": "^1.9.0",
-    "mongoose": "^4.11.7",
+    "mongoose": "^5.7.5",
     "plaid": "^2.3.0",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
