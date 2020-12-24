@@ -5,10 +5,10 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "auth0-js": "^9.2.3",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "chart.js": "^2.7.2",
     "create-react-class": "^15.6.3",
-    "datatables.net": "^1.10.16",
+    "datatables.net": "^1.10.23",
     "history": "^4.7.2",
     "immutability-helper": "^2.6.5",
     "jquery": "^3.3.1",
