@@ -16,6 +16,11 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@snyk/protect@^1.1209.0":
+  version "1.1209.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1209.0.tgz#9e938362cf684576ead289916274cf8bd5f4e0ce"
+  integrity sha512-E370Imyh7tnkgaYJdjL+Skb7thgcPcSiIISbUhA6/ZtjKGzGLveLXGAjID9nQlizoO+P+D3UfssnE16GJZjWPw==
+
 "@types/body-parser@*":
   version "1.16.8"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.16.8.tgz#687ec34140624a3bec2b1a8ea9268478ae8f3be3"
