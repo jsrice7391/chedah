@@ -38,7 +38,7 @@
     "supertest": "^3.0.0"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^1.6.4",
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
     "create-react-class": "^15.6.3",
