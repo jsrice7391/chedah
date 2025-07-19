@@ -50,7 +50,7 @@
     "jest-cli": "^27.0.0",
     "json-stringify-safe": "^5.0.1",
     "jwks-rsa": "^2.0.0",
-    "morgan": "^1.9.0",
+    "morgan": "^1.10.1",
     "mongoose": "^8.9.5",
     "plaid": "^18.1.0",
     "ramda": "^0.25.0",
